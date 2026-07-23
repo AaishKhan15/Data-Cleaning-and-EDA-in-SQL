@@ -16,7 +16,7 @@ Raw data was staged before any modifications to preserve the original dataset. K
 - Converted `date` from text to proper `DATE` type for time based analysis
 - Backfilled missing industry values using matching rows for the same company
 
-📄 Full cleaning writeup: [`data_cleaning.md`](data_cleaning.md)  
+📄 Full cleaning writeup: [`Data_cleaning Overview.md`](Data_cleaning Overview.md)  
 🧾 Full SQL script: 
 
 ### **Key Insights:**
