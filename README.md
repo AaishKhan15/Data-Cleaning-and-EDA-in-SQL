@@ -11,7 +11,7 @@ This project is an open ended exploratory analysis of a layoffs dataset across c
 Raw data was staged before any modifications to preserve the original dataset. Key steps:
 
 - Removed exact duplicate rows (no unique ID existed, so used `ROW_NUMBER()` across all columns)
-- Standardized inconsistent company names (e.g. "Ada" vs. "Ada Support") via a self-join to catch formatting variants systematically
+- Standardized inconsistent company names (e.g. "Ada" vs. "Ada Support") via a self join to catch different format variants
 - Standardized industry and country labels (e.g. "Crypto Currency" → "Crypto")
 - Converted `date` from text to proper `DATE` type for time based analysis
 - Backfilled missing industry values using matching rows for the same company
