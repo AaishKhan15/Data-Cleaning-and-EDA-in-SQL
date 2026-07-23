@@ -1,7 +1,7 @@
 Across the ~3 year period covered by this dataset (March 2020 – March 2023), companies laid off a combined 383,659 employees, despite these companies having collectively 
 raised over $1.6 trillion in funding, with an average of 26% of staff laid off per company event.
 
-Timeline
+**Timeline**
 - 2021 relatively low
 - drastic incr in 2022 (10x)
 - early months of 2023 had more than half of layoffs of 2022
