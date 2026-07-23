@@ -16,6 +16,9 @@ Raw data was staged before any modifications to preserve the original dataset. K
 - Converted `date` from text to proper `DATE` type for time based analysis
 - Backfilled missing industry values using matching rows for the same company
 
+📄 Full cleaning writeup: [`data_cleaning.md`](data_cleaning.md)  
+🧾 Full SQL script: 
+
 ### **Key Insights:**
 Across ~3 years of data (Mar 2020 – Mar 2023), companies laid off 383,659 
 employees despite having raised $1.6T+ in funding collectively.
