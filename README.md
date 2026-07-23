@@ -32,8 +32,12 @@ employees despite having raised $1.6T+ in funding collectively.
 
 📄 Full analysis with reasoning and context: [`Insights.md`](Insights.md)
 
-**Tools used:**
+### Skills Demonstrated
 - SQL
+- Data Cleaning
+- Exploratory Data Analysis
+- Business Insights
+
 
 
 
