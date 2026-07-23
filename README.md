@@ -13,7 +13,7 @@ Raw data was staged before any modifications to preserve the original dataset. K
 - Removed exact duplicate rows (no unique ID existed, so used `ROW_NUMBER()` across all columns)
 - Standardized inconsistent company names (e.g. "Ada" vs. "Ada Support") via a self-join to catch formatting variants systematically
 - Standardized industry and country labels (e.g. "Crypto Currency" → "Crypto")
-- Converted `date` from text to proper `DATE` type for time-based analysis
+- Converted `date` from text to proper `DATE` type for time based analysis
 - Backfilled missing industry values using matching rows for the same company
 
 ### **Key Insights:**
@@ -22,15 +22,15 @@ employees despite having raised $1.6T+ in funding collectively.
 
 - **Layoffs spiked roughly 10x almost overnight**: Low in 2021 (15,823), surging to 160,661 in 2022 and staying elevated into early 2023, aligning with the broader 2022 "tech correction" as rising interest rates cut off cheap funding.
 - **Funding and maturity didn't protect against layoffs**: No correlation was found between funds raised and layoff size, and Post-IPO companies had the highest total layoffs of any stage.
-- **The US spread its layoffs thin; Netherlands and Sweden concentrated theirs**: 1,294 US companies were affected vs. just 12–17 each in Netherlands and Sweden, pointing to very different underlying patterns despite similar looking totals.
-- **Consumer and Retail bore the brunt**: Likely tied to pandemic era demand for goods, reversing as spending patterns normalized post 2021.
+- **The US spread its layoffs thin, Netherlands and Sweden concentrated theirs**: 1,294 US companies were affected vs. just 12–17 each in Netherlands and Sweden, pointing to very different underlying patterns despite similar looking totals.
+- **Consumer and Retail bore the brunt**: Likely tied to, pandemic era demand for goods reversing, as spending patterns normalized post 2021.
 - **The US and India had the most repeated layoff rounds**: Suggesting downsizing was an ongoing process for some companies rather than a single cut.
 - **Amazon, Google, Meta, Salesforce, and Microsoft led total layoffs**: Peaking in different years (2022 vs. 2023), raising the question of whether size at a big tech company still means job security.
 
+📄 Full analysis with reasoning and context: 
+
 **Tools used:**
 - SQL
-  
 
 
 
-How to run it:
