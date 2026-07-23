@@ -17,7 +17,7 @@ Raw data was staged before any modifications to preserve the original dataset. K
 - Backfilled missing industry values using matching rows for the same company
 
 📄 Full cleaning writeup: [Data_cleaning Overview.md](https://github.com/AaishKhan15/Data-Cleaning-and-EDA-in-SQL/edit/main/README.md)  
-🧾 Full SQL script: 
+🧾 Full SQL script: [Data Cleaning in SQL (layoffs).sql](
 
 ### **Key Insights:**
 Across ~3 years of data (Mar 2020 – Mar 2023), companies laid off 383,659 
