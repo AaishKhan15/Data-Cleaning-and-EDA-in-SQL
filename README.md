@@ -29,7 +29,7 @@ employees despite having raised $1.6T+ in funding collectively.
 - **The US and India had the most repeated layoff rounds**: Suggesting downsizing was an ongoing process for some companies rather than a single cut.
 - **Amazon, Google, Meta, Salesforce, and Microsoft led total layoffs**: Peaking in different years (2022 vs. 2023), raising the question of whether size at a big tech company still means job security.
   
-📄 Full cleaning writeup:[`Insights.md`](Insights.md) 
+📄 Detailed Analysis and reasoning:[`Insights.md`](Insights.md) 
 🧾 Full SQL script: [EDA (layoffs).sql](https://github.com/AaishKhan15/Data-Cleaning-and-EDA-in-SQL/blob/main/EDA%20(layoffs).sql)
 
 ### Skills Demonstrated
