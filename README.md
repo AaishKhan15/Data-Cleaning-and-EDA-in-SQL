@@ -1,4 +1,4 @@
-# Data-Cleaning-EDA-SQL-
+# Data-Cleaning-and-EDA-in-SQL-
 ## **Project Overview:**
 This project is an open ended exploratory analysis of a layoffs dataset across companies globally. Rather than testing a specific hypothesis, this project is centered around exploring the data broadly, across multiple domains; like company, industry, time, geography and funding stage; to see what patterns and stories emerge. This project starts off with cleaning the data and then moves towards analyzing the dataset.
 
