@@ -16,7 +16,7 @@ Raw data was staged before any modifications to preserve the original dataset. K
 - Converted `date` from text to proper `DATE` type for time based analysis
 - Backfilled missing industry values using matching rows for the same company
 
-📄 Full cleaning writeup: [`Data_cleaning Overview.md`](https://github.com/AaishKhan15/Data-Cleaning-and-EDA-in-SQL/edit/main/README.md)  🧾 Full SQL script: [Data Cleaning in SQL (layoffs).sql](https://github.com/AaishKhan15/Data-Cleaning-and-EDA-in-SQL/blob/main/Data%20Cleaning%20in%20SQL%20(layoffs).sql)
+📄 Full cleaning writeup: [`Data_cleaning Overview.md`](https://github.com/AaishKhan15/Data-Cleaning-and-EDA-in-SQL/edit/main/README.md)  🧾 Full SQL script: [`Data Cleaning in SQL (layoffs).sql`](https://github.com/AaishKhan15/Data-Cleaning-and-EDA-in-SQL/blob/main/Data%20Cleaning%20in%20SQL%20(layoffs).sql)
 
 ### **Key Insights:**
 Across ~3 years of data (Mar 2020 – Mar 2023), companies laid off 383,659 
@@ -30,7 +30,7 @@ employees despite having raised $1.6T+ in funding collectively.
 - **Amazon, Google, Meta, Salesforce, and Microsoft led total layoffs**: Peaking in different years (2022 vs. 2023), raising the question of whether size at a big tech company still means job security.
   
 📄 Detailed Analysis and reasoning:[`Insights.md`](Insights.md) 
-🧾 Full SQL script: [EDA (layoffs).sql](https://github.com/AaishKhan15/Data-Cleaning-and-EDA-in-SQL/blob/main/EDA%20(layoffs).sql)
+🧾 Full SQL script: [`EDA (layoffs).sql`](https://github.com/AaishKhan15/Data-Cleaning-and-EDA-in-SQL/blob/main/EDA%20(layoffs).sql)
 
 ### Skills Demonstrated
 - SQL
