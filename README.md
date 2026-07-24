@@ -17,7 +17,8 @@ Raw data was staged before any modifications to preserve the original dataset. K
 - Converted `date` from text to proper `DATE` type for time based analysis
 - Backfilled missing industry values using matching rows for the same company
 
-📄 Full cleaning writeup: [`Data_cleaning Overview.md`](docs/Data_cleaning%20Overview.md)  🧾 Full SQL script: [`Data Cleaning in SQL (layoffs).sql`](codes/Data%20Cleaning%20in%20SQL%20%28layoffs%29.sql)
+Full cleaning writeup: [`Data_cleaning Overview.md`](docs/Data_cleaning%20Overview.md)  
+Full SQL script: [`Data Cleaning in SQL (layoffs).sql`](codes/Data%20Cleaning%20in%20SQL%20%28layoffs%29.sql)
 
 ### **Key Insights:**
 Across ~3 years of data (Mar 2020 – Mar 2023), companies laid off 383,659 
@@ -32,8 +33,8 @@ employees despite having raised $1.6T+ in funding collectively.
 - **The US and India had the most repeated layoff rounds**: Suggesting downsizing was an ongoing process for some companies rather than a single cut.
 - **Amazon, Google, Meta, Salesforce, and Microsoft led total layoffs**: Peaking in different years (2022 vs. 2023), raising the question of whether size at a big tech company still means job security.
   
-📄 Detailed Analysis and reasoning: [`Insights.md`](docs/Insights.md)
-🧾 Full SQL script: [`EDA (layoffs).sql`](codes/EDA%20%28layoffs%29.sql)
+Detailed Analysis and reasoning: [`Insights.md`](docs/Insights.md)
+Full SQL script: [`EDA (layoffs).sql`](codes/EDA%20%28layoffs%29.sql)
 
 ### Skills Demonstrated
 - SQL
