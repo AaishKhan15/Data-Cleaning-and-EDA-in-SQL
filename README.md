@@ -23,6 +23,8 @@ Raw data was staged before any modifications to preserve the original dataset. K
 Across ~3 years of data (Mar 2020 – Mar 2023), companies laid off 383,659 
 employees despite having raised $1.6T+ in funding collectively.
 
+![Monthly Rolling Total of 3 years](charts/running_total_layoffs.png)
+
 - **Layoffs spiked roughly 10x almost overnight**: Low in 2021 (15,823), surging to 160,661 in 2022 and staying elevated into early 2023, aligning with the broader 2022 "tech correction" as rising interest rates cut off cheap funding.
 - **Funding and maturity didn't protect against layoffs**: No correlation was found between funds raised and layoff size, and Post-IPO companies had the highest total layoffs of any stage.
 - **The US spread its layoffs thin, Netherlands and Sweden concentrated theirs**: 1,294 US companies were affected vs. just 12–17 each in Netherlands and Sweden, pointing to very different underlying patterns despite similar looking totals.
