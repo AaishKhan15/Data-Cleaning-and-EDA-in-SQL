@@ -6,6 +6,7 @@ This project is an open ended exploratory analysis of a layoffs dataset across c
 1. Data Cleaning
 2. Exploratory Data Analysis (EDA)
 3. Translating data into business insights
+4. Data Visualization
    
 ### **Data Cleaning Summary:**
 Raw data was staged before any modifications to preserve the original dataset. Key steps:
@@ -36,6 +37,7 @@ employees despite having raised $1.6T+ in funding collectively.
 - SQL
 - Data Cleaning
 - Exploratory Data Analysis
+- Data Visualization (Python: Pandas, Matplotlib)
 - Business Insights
 
 
