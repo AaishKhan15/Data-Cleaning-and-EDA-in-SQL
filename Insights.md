@@ -14,6 +14,8 @@ Public tech stock valuations dropped as higher interest rate lowered the Present
 
 Companies that had scaled up headcount during the low interest rate period were forced to cut costs quickly and payroll, often a company's largest expense, was the first lever pulled. This is a widely cited explanation for the layoff wave seen through 2022–2023 more broadly and offers a plausible explanation for the timing observed here.
 
+![Monthly Rolling Total of 3 years](charts/running_total_layoffs.png)
+
 
 #### Funding and Maturity didnt protect against layoffs
 One might assume that companies with large amounts of funding, or those further along in their lifecycle (e.g. post-IPO), would be more protected from layoffs as more capital should mean more room to absorb downturns. The data doesn't support that assumption.
@@ -24,8 +26,12 @@ One might assume that companies with large amounts of funding, or those further 
 
 Together, these two findings suggest that capital and maturity didn't function as a safety net during this period, if anything, some of the largest, most well funded, most established companies cut the deepest, likely because they had scaled headcount the most aggressively during the low interest rate years.
 
+![layoffs by Stage](charts/layoffs_by_stage.png)
+
 #### Concentration vs Distribution Pattern
 Looking at the top 5 countries by total layoffs, the raw totals only tell part of the story, how those layoffs were spread out matters just as much.
+
+![Top 10 countries](charts/top10_countries.png)
 
 - The US had the highest total layoffs by a wide margin, but this was distributed across a large number of companies. 1,294 distinct companies had at least one layoff event. This suggests the layoffs reflect a broad, industry wide trend rather than being driven by a handful of large events. Within the US, the highest layoffs came from Consumer, Retail, and Transportation, consistent with the demand reversal pattern discussed below.
 - Netherlands and Sweden, by contrast, had layoffs that were concentrated in just 12–17 companies each. This is a very different shape of impact: a small number of companies in these countries had severe layoff events, rather than the effect being spread broadly across the local economy. Notably, the industries driving this were different from the US: Healthcare led in the Netherlands, while "Other" led in Sweden, suggesting that their impact came from a distinct, localized cause rather than the same broad Consumer/Retail pattern seen in the US.
@@ -34,6 +40,8 @@ In short: the US pattern looks like "a widespread trend affecting many companies
 
 #### Consumer and Retail bore the brunt
 Consumer and Retail were the hardest-hit industries by total layoffs, ahead of every other category in the dataset.
+
+![Layoffs by Industry](charts/layoffs_by_industry.png)
 
 A plausible explanation for this could be a shift in consumer demand during and after the pandemic. During 2020–2021, with people stuck at home and many in person options unavailable, spending shifted heavily toward physical goods and e-commerc; online retail, delivery services, home goods, and similar categories saw a big demand spike . Companies in these spaces often treated this surge as a long term shift in behavior rather than a temporary one, and scaled up hiring, warehousing, and delivery infrastructure to match.
 
@@ -47,6 +55,9 @@ This suggests that for some companies, layoffs weren't a single "correction" but
 #### Big companies, big layoffs, but does size still mean job security?
 The five companies with the highest total layoffs over the period were Amazon, Google, Meta, Salesforce, and Microsoft, some of the largest and most established technology companies in the world.
 
+![Top 5 companies](charts/top5_companies.png)
+
 Interestingly, these layoffs weren't evenly spread across the timeline: Amazon and Meta's largest layoffs were concentrated in 2022, while Google, Salesforce, and Microsoft's peak layoffs came in 2023. This suggests a kind of "wave" effect, the layoff pressure moved through different major companies at different points, rather than all five cutting staff simultaneously.
 
+![Top 5 Companies per year](charts/top5_companies_per_year.png)
 More broadly, this raises a reasonable question: does working at a large, established tech company still imply strong job security? Historically, large, profitable companies were seen as safer employers than early stage startups. This dataset suggests that assumption weakened during this period, some of the largest, most recognizable companies in tech had the highest layoff counts in the dataset. That said, it's worth noting that large companies also have far larger total headcounts to begin with, so a large absolute layoff number doesn't necessarily mean a large percentage of their workforce was affected, a nuance worth exploring further if the dataset had a total employees column.
